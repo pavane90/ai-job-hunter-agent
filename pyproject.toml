@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "crewai[tools]>=0.152.0",
+    # 웹 스크랩용 (크롤링 블록 방지)
     "firecrawl-py==2.16.3",
     "python-dotenv>=1.1.1",
 ]
